@@ -1,0 +1,14 @@
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\bin\Debug\net8.0\XoaPhanTuTrongMang.exe
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\bin\Debug\net8.0\XoaPhanTuTrongMang.deps.json
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\bin\Debug\net8.0\XoaPhanTuTrongMang.runtimeconfig.json
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\bin\Debug\net8.0\XoaPhanTuTrongMang.dll
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\bin\Debug\net8.0\XoaPhanTuTrongMang.pdb
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\obj\Debug\net8.0\XoaPhanTuTrongMang.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\obj\Debug\net8.0\XoaPhanTuTrongMang.AssemblyInfoInputs.cache
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\obj\Debug\net8.0\XoaPhanTuTrongMang.AssemblyInfo.cs
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\obj\Debug\net8.0\XoaPhanTuTrongMang.csproj.CoreCompileInputs.cache
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\obj\Debug\net8.0\XoaPhanTuTrongMang.dll
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\obj\Debug\net8.0\refint\XoaPhanTuTrongMang.dll
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\obj\Debug\net8.0\XoaPhanTuTrongMang.pdb
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\obj\Debug\net8.0\XoaPhanTuTrongMang.genruntimeconfig.cache
+C:\Users\admin\Documents\HocLapTrinh\LapTrinhGameUnity\CongTapCode\C#\BaiTapCodeGym\XoaPhanTuTrongMang\obj\Debug\net8.0\ref\XoaPhanTuTrongMang.dll
