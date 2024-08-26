@@ -32,7 +32,7 @@ namespace XoaPhanTuTrongMang
                     }
                     continue;
                 }
-            }
+            }            
             while(true)
             {
                 Console.Write("Nhap gia tri phan tu muon xoa: ");
@@ -41,39 +41,63 @@ namespace XoaPhanTuTrongMang
                     break;
                 }
                 continue;
-            }
+            }     
+            int count= KiemTraMang(array,num);       
             newArray = XoaPhanTu(array,num);
-            Console.Write("Mang sau khi xoa la: ");
-            foreach(int number in newArray)
+            if (count==array.Length)
             {
-                Console.Write("{0,5}", number);
+                Console.Write("Khong co phan tu do trong mang");
             }
+            else
+            {
+                Console.Write("Mang sau khi xoa la: ");
+                foreach(int number in newArray)
+                {
+                    Console.Write("{0,5}", number);
+                }
+            }
+           
         }
-
-        //Cách 1: sử dụng LINQ
-        static int[] XoaPhanTu(int [] array, int num)        
+        static int KiemTraMang(int [] array, int num)
         {
-            int [] newArray = array.Where(val => val!=num).ToArray();
-            return newArray;
+            int count =0;
+            for (int i =0; i<array.Length; i++)
+            {
+                if (array[i]!=num)
+                {
+                    count++;
+                }
+            }
+            return count;
         }
-
-        //Cách 2: sử dụng Array.Copy
+        // //Cách 1: sử dụng LINQ
         // static int[] XoaPhanTu(int [] array, int num)        
         // {
-             
-        //     for (int i =0; i<array.Length; i++)
-        //     {
-        //         if (array[i]==num)
-        //         {
-        //             int index = i;
-        //             int []newArray = new int [array.Length-1];
-        //             Array.Copy(array,0,newArray,0,index);
-        //             Array.Copy(array,index+1,newArray,index,array.Length-index-1);
-        //             array=newArray;
-        //         }
-        //     }
-        //     return array;
+        //     /*Dòng lệnh array.Where(val => val != num).ToArray(); 
+        //     trong C# sử dụng LINQ để lọc các phần tử của mảng array 
+        //     sao cho chỉ giữ lại các phần tử khác với giá trị num*/
+            
+        //     int [] newArray = array.Where(val => val!=num).ToArray();
+        //     return newArray;
         // }
+
+        //Cách 2: sử dụng Array.Copy
+        static int[] XoaPhanTu(int [] array, int num)        
+        {
+             
+            for (int i =0; i<array.Length; i++)
+            {
+                if (array[i]==num)
+                {
+                    int index = i;
+                    int []newArray = new int [array.Length-1];
+                    Array.Copy(array,0,newArray,0,index);
+                    Array.Copy(array,index+1,newArray,index,array.Length-index-1);
+                    array=newArray;
+                }
+            }
+            return array;
+        }
         
     }
 }
